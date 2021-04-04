@@ -2,4 +2,5 @@
 
 # Stack
 [9012 괄호](https://www.acmicpc.net/problem/9012) 
-[쇠막대기](https://www.acmicpc.net/problem/10799) 
+[쇠막대기](https://www.acmicpc.net/problem/10799)
+[에디터](https://www.acmicpc.net/problem/1406) 
