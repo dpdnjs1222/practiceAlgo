@@ -17,4 +17,19 @@ def count_line(s):
         back = c
     return answer
 
-print(count_line(r()))
+def count_line_with_stack(s):
+    stack = []
+    answer = 0
+    for (i, c) in enumerate(s):
+        if c == '(':
+            stack.append(i)
+        elif c == ')':
+            top = stack[-1]
+            stack.pop()
+            if top + 1 == i:
+                answer += len(stack)
+            elif c == ')':
+                answer += 1
+    return answer
+
+print(count_line_with_stack(r()))
