@@ -1,5 +1,4 @@
 #include <iostream>
-#include <stack>
 #include <string>
 
 using namespace std;
@@ -17,10 +16,8 @@ string valid(string s){
                 return "NO";
             }
         }
-        if(i == s.length() - 1){
-            return (cnt == 0 ? "YES" : "NO");
-        }
     }
+    return (cnt == 0 ? "YES" : "NO");
 }
 
 int main(){
