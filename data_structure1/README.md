@@ -28,7 +28,8 @@ Valid Parenthesis String을 구하기 위해 '('가 나오는 경우 stack에 pu
 두 개의 stack을 사용한다. 커서를 기준으로 왼쪽 문자는 왼쪽 stack, 오른쪽 문자는 오른쪽 stack에 저장된다.
 ```
 
-4. [1158 요세푸스 문제](https://www.acmicpc.net/problem/1158)
+# Queue
+1. [1158 요세푸스 문제](https://www.acmicpc.net/problem/1158)
 ```
 큐의 가장 앞 원소를 pop해서 뒤에 push하면 원을 이루면서 앉아있는 효과를 줄 수 있다.   
 즉, 매번 큐에서 원소를 pop하고 k번째 인 경우 출력, k번째가 아닌 경우 뒤에 push한다.  

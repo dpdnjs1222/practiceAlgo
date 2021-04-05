@@ -4,4 +4,4 @@ It was started at April 4, 2021.
 |date|practice number|datail|
 |---|---|---|
 |4/4|[9012](https://github.com/dpdnjs1222/practiceAlgo/blob/main/data_structure1/9012.cpp) [1406](https://github.com/dpdnjs1222/practiceAlgo/blob/main/data_structure1/1406.cpp) [10799](https://github.com/dpdnjs1222/practiceAlgo/blob/main/data_structure1/10799.py)|stack|
-|4/5|[1158](https://www.acmicpc.net/problem/1158)|queue|
+|4/5|[1158](https://www.acmicpc.net/problem/1158) [1476](https://www.acmicpc.net/problem/1476)|queue, full search|
