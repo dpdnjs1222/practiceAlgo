@@ -5,14 +5,13 @@
 using namespace std;
 
 int is_available(vector<bool> broken, int now){
-    if(now == 0 && !broken[now])
-        return 1;
-    int share = now;
+    if(now == 0)
+        return broken[now]? 0 : 1;
     int len = 0;
-    while(share){
-        if(broken[share % 10])
+    while(now){
+        if(broken[now % 10])
             return 0;
-        share = share / 10;
+        now = now / 10;
         len++;
     }
     return len;
